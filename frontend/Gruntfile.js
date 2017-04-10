@@ -35,6 +35,7 @@ module.exports = function(grunt) {
       start: {
         keepAlive: true,
         port: 3000,
+        host: "0.0.0.0",
         contentBase: "app",
         hot: true,
         webpack: {
